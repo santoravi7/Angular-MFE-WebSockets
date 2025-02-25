@@ -1,0 +1,24 @@
+
+
+<div id="container">
+    <div>
+        <h2>Hello {{user}}!! Welcome to Bookings!</h2>
+    </div>
+    <div>
+        <img src="../../../assets/angular.png" width="50">
+    </div>
+    <h1>Your Bookings!</h1>
+    <div>
+        <input type="text" placeholder="From">
+    </div>
+    <div>
+        <input type="text" placeholder="To">
+    </div>
+    <div>
+        <button (click)="search()">Search</button>
+        <button (click)="terms()">Terms...</button>
+    </div>
+    <div>
+        <ng-container #vc></ng-container>
+    </div>
+</div>

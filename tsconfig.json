@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "auth": [
+        "./projects/auth/src/public-api.ts"
+      ]
+    },
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "ES2020",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "importHelpers": false,
+    "target": "ES2020",
+    "strict": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  }
+}
